@@ -1,0 +1,16 @@
+<template>
+    <require from="select2/css/select2.min.css"></require>
+    <require from="./resources/attributes/select2"></require>
+
+    <label for="single-select2-select">Single Select2 Select
+      <select id="single-select2-select" value.bind="selectedValue">
+        <option repeat.for="val of singleSelectValues" model.bind="val">${val}</option>
+      </select>
+    </label>
+    <label for="multiple-select2-select">Multiple Select2 Select
+      <select id="multiple-select2-select" select2 multiple value.bind="selectedValues">
+        <option repeat.for="val of multipleSelectValues" model.bind="val">${val}</option>
+      </select>
+    </label>
+    <button click.delegate="changeValue()">ChangeMe</button>
+</template>
