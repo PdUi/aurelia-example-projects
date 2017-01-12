@@ -27,8 +27,8 @@ module.exports = {
         "aurelia-loader-default",
         "aurelia-history-browser",
         "aurelia-logging-console",
-        "bootstrap",
-        "bootstrap/css/bootstrap.css!text",
+        "semantic-ui",
+        "semantic-ui/semantic.css!text",
         "fetch",
         "jquery"
       ],

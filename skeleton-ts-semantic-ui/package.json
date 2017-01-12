@@ -77,14 +77,13 @@
       "aurelia-templating-resources": "npm:aurelia-templating-resources@^1.0.0",
       "aurelia-templating-router": "npm:aurelia-templating-router@^1.0.0",
       "bluebird": "npm:bluebird@3.4.1",
-      "bootstrap": "github:twbs/bootstrap@^3.3.6",
       "fetch": "github:github/fetch@^1.0.0",
       "font-awesome": "npm:font-awesome@4.6.3",
       "jquery": "npm:jquery@^2.2.4",
+      "semantic-ui": "github:Semantic-Org/Semantic-UI@^2.2.7",
       "text": "github:systemjs/plugin-text@^0.0.8"
     },
     "devDependencies": {}
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
